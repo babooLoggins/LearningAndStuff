@@ -27,11 +27,12 @@ class Node {
 
 public class LinkedListFindMiddle
 {
+//    TODO: find complete solution to commit
     // Function to find middle element a linked list
-    int getMiddle(Node head)
-    {
-        if(head.data){
-
-        }
-    }
+//    int getMiddle(Node head)
+//    {
+//        if(head.data){
+//
+//        }
+//    }
 }
