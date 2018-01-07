@@ -11,7 +11,7 @@ public class QuickSortTests {
         Set<double[]> doubleTestSet = TestData.getDoubleTestData();
         int i = 0;
         for(double[] testSet : doubleTestSet){
-            QuickSort.sort(testSet);
+            QuickSort.sort(testSet, 0, testSet.length-1);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedDoubleArray(testSet));
@@ -23,7 +23,7 @@ public class QuickSortTests {
         Set<float[]> doubleTestSet = TestData.getFloatTestData();
         int i = 0;
         for(float[] testSet : doubleTestSet){
-            QuickSort.sort(testSet);
+            QuickSort.sort(testSet, 0, testSet.length-1);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedFloatArray(testSet));
@@ -35,7 +35,7 @@ public class QuickSortTests {
         Set<int[]> intTestSet = TestData.getIntTestData();
         int i = 0;
         for(int[] testSet : intTestSet){
-            QuickSort.sort(testSet);
+            QuickSort.sort(testSet, 0, testSet.length-1);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedIntArray(testSet));
@@ -59,7 +59,7 @@ public class QuickSortTests {
         Set<short[]> doubleTestSet = TestData.getShortTestData();
         int i = 0;
         for(short[] testSet : doubleTestSet){
-            QuickSort.sort(testSet);
+            QuickSort.sort(testSet, 0, testSet.length-1);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedShortArray(testSet));
