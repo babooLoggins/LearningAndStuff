@@ -47,7 +47,7 @@ public class QuickSortTests {
         Set<long[]> doubleTestSet = TestData.getLongTestData();
         int i = 0;
         for(long[] testSet : doubleTestSet){
-            QuickSort.sort(testSet);
+            QuickSort.sort(testSet, 0, testSet.length-1);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedLongArray(testSet));
