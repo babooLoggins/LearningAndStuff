@@ -1,6 +1,6 @@
 # LearningAndStuff
 
-A simple holder for continuous learning concepts and practice problems.
+A simple holder for continuous learning concepts and practice problems. Will grow to include basic data structures, core algorithms, and practice problems from sources like GeeksForGeeks, Cracking the Coding Interview, etc.
 
 ## Sections
 
