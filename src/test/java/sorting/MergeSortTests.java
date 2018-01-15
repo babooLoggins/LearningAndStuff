@@ -11,7 +11,7 @@ public class MergeSortTests {
         Set<double[]> doubleTestSet = TestData.getDoubleTestData();
         int i = 0;
         for(double[] testSet : doubleTestSet){
-            MergeSort.sort(testSet);
+            testSet = MergeSort.sort(testSet);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedDoubleArray(testSet));
@@ -23,7 +23,7 @@ public class MergeSortTests {
         Set<float[]> doubleTestSet = TestData.getFloatTestData();
         int i = 0;
         for(float[] testSet : doubleTestSet){
-            MergeSort.sort(testSet);
+            testSet = MergeSort.sort(testSet);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedFloatArray(testSet));
@@ -35,7 +35,7 @@ public class MergeSortTests {
         Set<int[]> intTestSet = TestData.getIntTestData();
         int i = 0;
         for(int[] testSet : intTestSet){
-            MergeSort.sort(testSet);
+            testSet = MergeSort.sort(testSet);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedIntArray(testSet));
@@ -47,7 +47,7 @@ public class MergeSortTests {
         Set<long[]> doubleTestSet = TestData.getLongTestData();
         int i = 0;
         for(long[] testSet : doubleTestSet){
-            MergeSort.sort(testSet);
+            testSet = MergeSort.sort(testSet);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedLongArray(testSet));
@@ -59,7 +59,7 @@ public class MergeSortTests {
         Set<short[]> doubleTestSet = TestData.getShortTestData();
         int i = 0;
         for(short[] testSet : doubleTestSet){
-            MergeSort.sort(testSet);
+            testSet = MergeSort.sort(testSet);
             i++;
             System.out.println("Testing set " + i);
             assert(SortingChecker.isSortedShortArray(testSet));
